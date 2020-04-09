@@ -1,12 +1,7 @@
 import requests
-from bs4 import BeautifulSoup
-import re
 from pathlib import Path
-import urllib.parse
 import os
-import fnmatch
 from multiprocessing import Pool
-import subprocess
 
 headers = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
